@@ -1,0 +1,15 @@
+login:
+  #输入用户名
+  - by:xpath
+    locator:'//*[@id="loginform-username"]'
+    action:send
+    value:"${username}"
+  #输入密码
+  - by:xpath
+    locator:'//*[@id="loginform-password"]'
+    action:send
+    value:"${password}"
+  #点击登录
+  - by:xpath
+    locator:'//*[@id="login-form"]/div[3]/input[1]'
+    action:click

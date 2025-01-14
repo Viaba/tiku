@@ -1,0 +1,20 @@
+tiku_main_page:
+  断言题库首页科目下方部分
+  - by : Xpath
+    locator : //*[@class="flex justify-between tab-main"]/a[1]
+    list_name : "每日打卡"
+  - by : Xpath
+    locator : //*[@class="flex justify-between tab-main"]/a[2]
+    list_name : "章节练习"
+  - by : Xpath
+    locator : //*[@class="flex justify-between tab-main"]/a[3]
+    list_name : "知识点练习"
+  - by : Xpath
+    locator : //*[@class="flex justify-between tab-main"]/a[4]
+    list_name : "历年试题"
+  - by : Xpath
+    locator : //*[@class="flex justify-between tab-main"]/a[5]
+    list_name : "模拟试题"
+  - by : Xpath
+    locator : //*[@class="flex justify-between tab-main"]/a[6]
+    list_name : "易错题"
